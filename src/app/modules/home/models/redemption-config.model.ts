@@ -1,0 +1,31 @@
+export class RedemptionConfig {
+  unitOfMeasure: string;
+  jSFNumber: string;
+  accountIDAlternate: string;
+  accountLastFour: string;
+  rewardID: string;
+  rewardDesc: string;
+  quantity: number;
+  rewardPoints: number;
+  memberPoints: number;
+  useFlexiblePointsSpend: boolean;
+  dollarsOffAmt: number;
+  valuePerPoint: number;
+  maxTicketValue: number;
+  advanceNotice: number;
+  maxStay: number;
+  satStay: number;
+  zoneID: string;
+  zoneIDDep: string;
+  zoneIDArr: string;
+  memberFirstName: string;
+  memberLastName: string;
+  memberAddress: string;
+  memberCity: string;
+  memberState: string;
+  memberZip: string;
+  memberEmail: string;
+  memberPhone: string;
+  allowOneWay: boolean;
+  loyaltyProgramID: string;
+}
