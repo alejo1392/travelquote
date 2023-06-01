@@ -1,0 +1,18 @@
+<div mat-dialog-content>
+    <p>
+        <b>Status Code: {{data.status}}</b>
+    </p>
+    <p>
+        {{data.title}}
+    </p>
+    <p>
+        {{data.instance}}
+    </p>
+    <p class="error-message" *ngIf="showDetails">
+        {{data.detail}}
+    </p>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="toogleShowDetails()">Ver detalles</button>
+    <button mat-raised-button color="primary" mat-dialog-close (click)="goHome()">Home</button>
+</div>

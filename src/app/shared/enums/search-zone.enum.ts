@@ -1,0 +1,16 @@
+export enum SearchZone {
+  ContinentalUS = 1,
+  US = 2,
+  World = 3,
+  ContinentalUSCanada = 4,
+  HawaiiAlaska = 5,
+  HawaiiInterIsland = 6,
+  MexicoCarribean = 7,
+  Europe = 8,
+  SouthAmerica = 9,
+  Asia = 10,
+  SouthPacific = 11,
+  MiddleEast = 12,
+  Africa = 13,
+  Australia = 14,
+}
